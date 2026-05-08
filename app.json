@@ -1,17 +1,26 @@
 {
   "expo": {
-    "name": "_expo_tmp",
-    "slug": "_expo_tmp",
+    "name": "Wallpaper Collection",
+    "slug": "wallpaper-collection",
+    "owner": "omtunlabss-organization",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "expotmp",
+    "scheme": "wallpapercollection",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.tunacodin.wallpapercollection",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Wallpaper Collection",
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
+      "package": "com.tunacodin.wallpapercollection",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
@@ -38,11 +47,18 @@
             "backgroundColor": "#000000"
           }
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "52f02ac7-52d8-4fc7-84df-51764de8a0ef"
+      }
     }
   }
 }
