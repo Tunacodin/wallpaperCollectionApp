@@ -12,7 +12,6 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.tunacodin.wallpapercollection",
-      "buildNumber": "1",
       "infoPlist": {
         "CFBundleDisplayName": "Wallpaper Collection",
         "ITSAppUsesNonExemptEncryption": false
